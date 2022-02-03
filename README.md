@@ -21,9 +21,28 @@ In order to deploy on Torchserve, I have done the following
 2. Packaging the custom handler and the scripted model into a MAR file that is required for torchserve
 3. Created a new torchserve docker image with detectron2 installed and the MAR file added so the image is production ready out of the box
 
+dockerhub image: https://hub.docker.com/repository/docker/teozz89/sartorius
+
 ## UI code
 I have created a simple StreamLit UI for testing out if the model is serving correctly. The UI have also been dockerized.
+
+dockerhub image: https://hub.docker.com/repository/docker/teozz89/sartorius_ui
 
 
 ## Test out for yourself!
 I have created a docker-compose file so ease of deploying
+Steps:
+1. git clone this project
+2. cd to the project folder 
+3. open up a cmd prompt and run 
+```docker-compose -f docker-compose.yaml up
+```
+<img src="/assets/docker_desktop.jpg">
+4. open a browser and go to localhost:8051
+5. drop in some sample images from the sample_images folder
+#### Drop in some images
+<img src="/assets/drag_drop.jpg">
+#### sample of image you uploaded
+<img src="/assets/uploaded_image.jpg">
+#### prediction
+<img src="/assets/predictions.jpg">
