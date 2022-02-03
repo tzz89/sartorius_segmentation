@@ -40,9 +40,12 @@ Steps:
 <img src="/assets/docker_desktop.jpg">
 4. open a browser and go to localhost:8051
 5. drop in some sample images from the sample_images folder
+
 #### Drop in some images
-<img src="/assets/drag_drop.jpg">
+<img src="/assets/drag_drop.JPG">
+
 #### sample of image you uploaded
-<img src="/assets/uploaded_image.jpg">
+<img src="/assets/uploaded_image.JPG">
+
 #### prediction
-<img src="/assets/predictions.jpg">
+<img src="/assets/predictions.JPG">
