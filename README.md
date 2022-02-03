@@ -1,4 +1,5 @@
-## In this repository, I will be showing and end-to-end (less data collection) object detection project using detectron2. First, we will be preparing the dataset and training the model. Once the model is trained, we will serialize the model so for performance also removing python dependencies so it can be deployed on other runtimes like C++. Then we will be creating our custom detectron2 handlers (basically, preprocessing, inference, postprocessing) as we want the server to be be handling this so the client can be more lightweight. Lastly we will be creating a simple UI and then automate the deployment using docker-compose
+## Objection detection using detectron2
+In this repository, I will be showing and end-to-end (less data collection) object detection project using detectron2. First, we will be preparing the dataset and training the model. Once the model is trained, we will serialize the model so for performance also removing python dependencies so it can be deployed on other runtimes like C++. Then we will be creating our custom detectron2 handlers (basically, preprocessing, inference, postprocessing) as we want the server to be be handling this so the client can be more lightweight. Lastly we will be creating a simple UI and then automate the deployment using docker-compose
 
 #### Overview of the entire process
 <img src="/assets/overview.svg">
