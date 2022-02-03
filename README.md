@@ -35,15 +35,13 @@ Steps:
 1. git clone this project
 2. cd to the project folder 
 3. open up a cmd prompt and run "docker-compose -f docker-compose.yaml up"
-<img src="/assets/docker_desktop.jpg">
+<img src="/assets/docker_desktop.JPG">
 4. open a browser and go to localhost:8051
 5. drop in some sample images from the sample_images folder
 
-#### Drop in some images
+
 <img src="/assets/drag_drop.JPG">
 
-#### sample of image you uploaded
 <img src="/assets/uploaded_image.JPG">
 
-#### prediction
 <img src="/assets/predictions.JPG">
